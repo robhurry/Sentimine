@@ -12,6 +12,7 @@ getGoogleURL <- function(search.term, dateRef, daysBack,num=100, domain = '.com'
 '&tbm=nws&source=lnt'
 , sep='')
 }
+
 getTwitterURL <- function(search.term, dateRef, daysBack, domain = '.com', quotes=TRUE) 
 {
   
